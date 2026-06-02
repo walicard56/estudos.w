@@ -1,24 +1,15 @@
-def saudades(nome):
-    return f"Saudades de você, {nome}!"
+from dataclasses import dataclass, field
 
-def idade(ano_nascimento):
-    from datetime import datetime
-    ano_atual = datetime.now().year
-    anos = ano_atual - ano_nascimento
-    return f"voce tem {anos} anos de idade."
+@dataclass
+class Estudo:
+    nome: str 
+    preco: float
+    estoque: int = 0 #valor padrão simples
+    tags: list[str] = field(default_factory=list) #valor padrão complexo
 
-def doença(temperatura):
-    def sintomas():
-        return "Você pode estar com gripe."
+p1 = Estudo(nome="android", preco=1000.0, estoque=10, tags=["celular", "sistema operacional"])
 
-    if temperatura > 38:
-        print(f"Você está com febre.({temperatura}°C)")
 
-    return sintomas()
-
-def executar(func, arg):
-    print(func(arg))
-
-executar(saudades, "Maria")
-executar(idade, 1990)
-executar(doença, 39)
+# O problema: aceita dados incorretos sem gerar erro
+p2 = Estudo(nome="Mouse", preco="texto incorreto", estoque=10) 
+print(p2)
