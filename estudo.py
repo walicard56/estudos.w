@@ -1,15 +1,20 @@
-from dataclasses import dataclass, field
+from pydantic import BaseModel, EmailStr, Field, ValidationError
 
-@dataclass
-class Estudo:
-    nome: str 
-    preco: float
-    estoque: int = 0 #valor padrão simples
-    tags: list[str] = field(default_factory=list) #valor padrão complexo
+#toda estrutura de dados deve ser criada a partir de uma classe que herda de BaseModel
+class User(BaseModel):
+    id:int
+    nome:str
+    email: str
+    ativo: bool = True
 
-p1 = Estudo(nome="android", preco=1000.0, estoque=10, tags=["celular", "sistema operacional"])
+# 1. caso de sucesso com coerção automatica
+dados_api = {"id": "100", "nome": "Carlos", "email": "carlos@email.com", "ativo": True}
 
+user = User(**dados_api)
+print(user.id, user.nome, user.email, user.ativo)
 
-# O problema: aceita dados incorretos sem gerar erro
-p2 = Estudo(nome="Mouse", preco="texto incorreto", estoque=10) 
-print(p2)
+try:
+    user_invalido = User(id="21", nome="Maria", email="email_ruin")
+except ValidationError as e:
+    print("ocorreu um erro de validação:", e)
+    print(e.json(indent=2))
