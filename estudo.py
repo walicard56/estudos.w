@@ -1,12 +1,9 @@
-def decorador(funcao):
-    def nova_funcao():
-        print("Antes da função original")
-        funcao()
-        print("Depois da função original")
-    return nova_funcao
+#type hints
 
-@decorador
-def minha_funcao():
-    print("Esta é a função original")
+def saudar(nome: str, repetir: int) -> str:
+    return f"Olá, {nome}! " * repetir
 
-minha_funcao()
+usuarios: list[str] = ["alice", "joao", "maria"]
+cadastro: dict[str, int] = {"alice": 30, "joao": 25, "maria": 28}
+
+print(saudar(usuarios[1], 3))
