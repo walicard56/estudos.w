@@ -1,12 +1,11 @@
-2026-06-04 10:36:35,949 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-06-04 11:20:25,147 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-06-04 10:36:35,949 - INFO - [33mPress CTRL+C to quit[0m
-2026-06-04 10:36:35,950 - INFO -  * Restarting with stat
-2026-06-04 10:36:36,242 - WARNING -  * Debugger is active!
-2026-06-04 10:36:36,244 - INFO -  * Debugger PIN: 247-270-122
-2026-06-04 10:36:42,589 - INFO - Acessando a rota para o livro com ID 1
-2026-06-04 10:36:42,589 - INFO - Livro encontrado: {'id': 1, 'title': 'Livro 1', 'author': 'Autor 1'}
-2026-06-04 10:36:42,590 - INFO - 127.0.0.1 - - [04/Jun/2026 10:36:42] "GET /livros/1 HTTP/1.1" 200 -
-2026-06-04 10:37:02,356 - INFO - Acessando a rota para o livro com ID 2
-2026-06-04 10:37:02,356 - INFO - Livro encontrado: {'id': 2, 'title': 'Livro 2', 'author': 'Autor 2'}
-2026-06-04 10:37:02,357 - INFO - 127.0.0.1 - - [04/Jun/2026 10:37:02] "GET /livros/2 HTTP/1.1" 200 -
+2026-06-04 11:20:25,147 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-04 11:20:30,789 - INFO - Acessando a rota para o livro com ID 1
+2026-06-04 11:20:30,789 - INFO - Livro encontrado: {'id': 1, 'title': 'Livro 1', 'author': 'Autor 1'}
+2026-06-04 11:20:30,789 - INFO - 127.0.0.1 - - [04/Jun/2026 11:20:30] "GET /1 HTTP/1.1" 200 -
+2026-06-04 11:23:00,297 - INFO - Acessando a rota para o livro com ID 1
+2026-06-04 11:23:00,297 - INFO - Livro encontrado: {'id': 1, 'title': 'Livro 1', 'author': 'Autor 1'}
+2026-06-04 11:23:00,298 - INFO - 127.0.0.1 - - [04/Jun/2026 11:23:00] "GET /1 HTTP/1.1" 200 -
+2026-06-04 11:23:08,067 - INFO - 127.0.0.1 - - [04/Jun/2026 11:23:08] "[33mGET /book/1 HTTP/1.1[0m" 404 -
+2026-06-04 11:23:22,282 - INFO - 127.0.0.1 - - [04/Jun/2026 11:23:22] "[33mGET /docs HTTP/1.1[0m" 404 -
