@@ -1,20 +1,16 @@
-from pydantic import BaseModel, EmailStr, Field, ValidationError
+from flask import Flask
 
-#toda estrutura de dados deve ser criada a partir de uma classe que herda de BaseModel
-class User(BaseModel):
-    id:int
-    nome:str
-    email: str
-    ativo: bool = True
+app = Flask(__name__)
 
-# 1. caso de sucesso com coerção automatica
-dados_api = {"id": "100", "nome": "Carlos", "email": "carlos@email.com", "ativo": True}
+books = [
+    {"id": 1, "title": "Livro 1", "author": "Autor 1"},
+    {"id": 2, "title": "Livro 2", "author": "Autor 2"},
+    {"id": 3, "title": "Livro 3", "author": "Autor 3"},
+]
 
-user = User(**dados_api)
-print(user.id, user.nome, user.email, user.ativo)
+@app.get("/")
+async def home():
+    return books
 
-try:
-    user_invalido = User(id="21", nome="Maria", email="email_ruin")
-except ValidationError as e:
-    print("ocorreu um erro de validação:", e)
-    print(e.json(indent=2))
+if __name__ == "__main__":
+    app.run(debug=True)
