@@ -1,11 +1,180 @@
-2026-06-04 11:20:25,147 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-06-05 17:01:09,395 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-2026-06-04 11:20:25,147 - INFO - [33mPress CTRL+C to quit[0m
-2026-06-04 11:20:30,789 - INFO - Acessando a rota para o livro com ID 1
-2026-06-04 11:20:30,789 - INFO - Livro encontrado: {'id': 1, 'title': 'Livro 1', 'author': 'Autor 1'}
-2026-06-04 11:20:30,789 - INFO - 127.0.0.1 - - [04/Jun/2026 11:20:30] "GET /1 HTTP/1.1" 200 -
-2026-06-04 11:23:00,297 - INFO - Acessando a rota para o livro com ID 1
-2026-06-04 11:23:00,297 - INFO - Livro encontrado: {'id': 1, 'title': 'Livro 1', 'author': 'Autor 1'}
-2026-06-04 11:23:00,298 - INFO - 127.0.0.1 - - [04/Jun/2026 11:23:00] "GET /1 HTTP/1.1" 200 -
-2026-06-04 11:23:08,067 - INFO - 127.0.0.1 - - [04/Jun/2026 11:23:08] "[33mGET /book/1 HTTP/1.1[0m" 404 -
-2026-06-04 11:23:22,282 - INFO - 127.0.0.1 - - [04/Jun/2026 11:23:22] "[33mGET /docs HTTP/1.1[0m" 404 -
+2026-06-05 17:01:09,395 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-05 17:01:15,555 - INFO - 127.0.0.1 - - [05/Jun/2026 17:01:15] "[33mGET / HTTP/1.1[0m" 404 -
+2026-06-05 17:01:20,658 - INFO - 127.0.0.1 - - [05/Jun/2026 17:01:20] "GET /docs HTTP/1.1" 200 -
+2026-06-05 17:01:20,788 - INFO - 127.0.0.1 - - [05/Jun/2026 17:01:20] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2026-06-05 17:01:20,794 - INFO - 127.0.0.1 - - [05/Jun/2026 17:01:20] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2026-06-05 17:01:20,795 - INFO - 127.0.0.1 - - [05/Jun/2026 17:01:20] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2026-06-05 17:01:20,796 - INFO - 127.0.0.1 - - [05/Jun/2026 17:01:20] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2026-06-05 17:01:21,035 - INFO - 127.0.0.1 - - [05/Jun/2026 17:01:21] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-06-05 17:01:34,801 - INFO - 127.0.0.1 - - [05/Jun/2026 17:01:34] "[33mGET /books HTTP/1.1[0m" 404 -
+2026-06-05 17:01:37,887 - INFO - 127.0.0.1 - - [05/Jun/2026 17:01:37] "[33mGET /books/ HTTP/1.1[0m" 404 -
+2026-06-05 17:01:58,069 - INFO - 127.0.0.1 - - [05/Jun/2026 17:01:58] "[33mGET /books/ HTTP/1.1[0m" 404 -
+2026-06-05 17:02:13,905 - INFO - 127.0.0.1 - - [05/Jun/2026 17:02:13] "[33mGET /books/science HTTP/1.1[0m" 404 -
+2026-06-05 17:08:39,984 - INFO - 127.0.0.1 - - [05/Jun/2026 17:08:39] "GET /docs HTTP/1.1" 200 -
+2026-06-05 17:08:40,023 - INFO - 127.0.0.1 - - [05/Jun/2026 17:08:40] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2026-06-05 17:08:40,024 - INFO - 127.0.0.1 - - [05/Jun/2026 17:08:40] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2026-06-05 17:08:40,026 - INFO - 127.0.0.1 - - [05/Jun/2026 17:08:40] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2026-06-05 17:08:40,028 - INFO - 127.0.0.1 - - [05/Jun/2026 17:08:40] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2026-06-05 17:08:40,454 - INFO - 127.0.0.1 - - [05/Jun/2026 17:08:40] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-06-05 17:08:40,491 - INFO - 127.0.0.1 - - [05/Jun/2026 17:08:40] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2026-06-05 17:09:35,031 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-05 17:09:35,031 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-05 17:09:35,034 - INFO -  * Restarting with stat
+2026-06-05 17:09:35,452 - WARNING -  * Debugger is active!
+2026-06-05 17:09:35,455 - INFO -  * Debugger PIN: 247-270-122
+2026-06-05 17:09:44,256 - INFO - 127.0.0.1 - - [05/Jun/2026 17:09:44] "[33mGET / HTTP/1.1[0m" 404 -
+2026-06-05 17:09:47,987 - INFO - 127.0.0.1 - - [05/Jun/2026 17:09:47] "GET /docs HTTP/1.1" 200 -
+2026-06-05 17:09:48,119 - INFO - 127.0.0.1 - - [05/Jun/2026 17:09:48] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2026-06-05 17:09:48,120 - INFO - 127.0.0.1 - - [05/Jun/2026 17:09:48] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2026-06-05 17:09:48,121 - INFO - 127.0.0.1 - - [05/Jun/2026 17:09:48] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2026-06-05 17:09:48,122 - INFO - 127.0.0.1 - - [05/Jun/2026 17:09:48] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2026-06-05 17:09:48,198 - INFO - 127.0.0.1 - - [05/Jun/2026 17:09:48] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-06-05 17:09:49,971 - INFO - 127.0.0.1 - - [05/Jun/2026 17:09:49] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-06-05 17:10:00,508 - INFO - 127.0.0.1 - - [05/Jun/2026 17:10:00] "[33mGET /books/1 HTTP/1.1[0m" 404 -
+2026-06-05 17:10:11,896 - INFO - 127.0.0.1 - - [05/Jun/2026 17:10:11] "[33mGET /books/Livro%201 HTTP/1.1[0m" 404 -
+2026-06-05 17:11:24,771 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-05 17:11:24,842 - INFO -  * Restarting with stat
+2026-06-05 17:11:25,241 - WARNING -  * Debugger is active!
+2026-06-05 17:11:25,243 - INFO -  * Debugger PIN: 247-270-122
+2026-06-05 17:11:40,445 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-05 17:11:40,515 - INFO -  * Restarting with stat
+2026-06-05 17:11:40,940 - WARNING -  * Debugger is active!
+2026-06-05 17:11:40,942 - INFO -  * Debugger PIN: 247-270-122
+2026-06-05 17:11:41,979 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-05 17:11:42,039 - INFO -  * Restarting with stat
+2026-06-05 17:11:42,460 - WARNING -  * Debugger is active!
+2026-06-05 17:11:42,463 - INFO -  * Debugger PIN: 247-270-122
+2026-06-05 17:12:12,746 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-05 17:12:12,746 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-05 17:12:12,747 - INFO -  * Restarting with stat
+2026-06-05 17:12:13,229 - WARNING -  * Debugger is active!
+2026-06-05 17:12:13,231 - INFO -  * Debugger PIN: 247-270-122
+2026-06-05 17:12:16,055 - INFO - 127.0.0.1 - - [05/Jun/2026 17:12:16] "[33mGET /books/Livro%201 HTTP/1.1[0m" 404 -
+2026-06-05 17:12:16,859 - INFO - 127.0.0.1 - - [05/Jun/2026 17:12:16] "[33mGET /books/Livro%201 HTTP/1.1[0m" 404 -
+2026-06-05 17:12:21,979 - INFO - 127.0.0.1 - - [05/Jun/2026 17:12:21] "[33mGET /books/Livro_1 HTTP/1.1[0m" 404 -
+2026-06-05 17:12:58,100 - INFO - 127.0.0.1 - - [05/Jun/2026 17:12:58] "[33mGET /GET%20/books/Livro%201 HTTP/1.1[0m" 404 -
+2026-06-05 17:13:06,483 - INFO - 127.0.0.1 - - [05/Jun/2026 17:13:06] "GET /docs HTTP/1.1" 200 -
+2026-06-05 17:13:06,606 - INFO - 127.0.0.1 - - [05/Jun/2026 17:13:06] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2026-06-05 17:13:06,607 - INFO - 127.0.0.1 - - [05/Jun/2026 17:13:06] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2026-06-05 17:13:06,609 - INFO - 127.0.0.1 - - [05/Jun/2026 17:13:06] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2026-06-05 17:13:06,611 - INFO - 127.0.0.1 - - [05/Jun/2026 17:13:06] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2026-06-05 17:13:06,668 - INFO - 127.0.0.1 - - [05/Jun/2026 17:13:06] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-06-05 17:13:09,813 - INFO - 127.0.0.1 - - [05/Jun/2026 17:13:09] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-06-05 17:13:50,214 - INFO - 127.0.0.1 - - [05/Jun/2026 17:13:50] "[33mGET /GET%20/books/Livro%201 HTTP/1.1[0m" 404 -
+2026-06-05 17:14:31,692 - INFO - 127.0.0.1 - - [05/Jun/2026 17:14:31] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-06-05 17:14:36,999 - INFO - 127.0.0.1 - - [05/Jun/2026 17:14:36] "GET /apispec_1.json HTTP/1.1" 200 -
+2026-06-05 17:15:05,030 - INFO - 127.0.0.1 - - [05/Jun/2026 17:15:05] "[33mGET /books/Livro_1 HTTP/1.1[0m" 404 -
+2026-06-05 17:15:26,244 - INFO - 127.0.0.1 - - [05/Jun/2026 17:15:26] "[33mGET /books/Livro%201 HTTP/1.1[0m" 404 -
+2026-06-05 17:15:29,283 - INFO - 127.0.0.1 - - [05/Jun/2026 17:15:29] "[33mGET /books/Livro%201 HTTP/1.1[0m" 404 -
+2026-06-05 17:16:00,390 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-05 17:16:00,391 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-05 17:16:00,392 - INFO -  * Restarting with stat
+2026-06-05 17:16:00,787 - WARNING -  * Debugger is active!
+2026-06-05 17:16:00,790 - INFO -  * Debugger PIN: 247-270-122
+2026-06-05 17:16:05,369 - INFO - 127.0.0.1 - - [05/Jun/2026 17:16:05] "[33mGET /books/Livro%201 HTTP/1.1[0m" 404 -
+2026-06-05 17:16:56,456 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-05 17:16:56,522 - INFO -  * Restarting with stat
+2026-06-05 17:16:56,979 - WARNING -  * Debugger is active!
+2026-06-05 17:16:56,982 - INFO -  * Debugger PIN: 247-270-122
+2026-06-05 17:17:01,062 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-05 17:17:01,133 - INFO -  * Restarting with stat
+2026-06-05 17:17:01,581 - WARNING -  * Debugger is active!
+2026-06-05 17:17:01,583 - INFO -  * Debugger PIN: 247-270-122
+2026-06-05 17:17:07,685 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-05 17:17:07,745 - INFO -  * Restarting with stat
+2026-06-05 17:17:08,132 - WARNING -  * Debugger is active!
+2026-06-05 17:17:08,135 - INFO -  * Debugger PIN: 247-270-122
+2026-06-05 17:17:15,439 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-05 17:17:15,439 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-05 17:17:15,440 - INFO -  * Restarting with stat
+2026-06-05 17:17:15,845 - WARNING -  * Debugger is active!
+2026-06-05 17:17:15,847 - INFO -  * Debugger PIN: 247-270-122
+2026-06-05 17:17:18,694 - INFO - 127.0.0.1 - - [05/Jun/2026 17:17:18] "GET /books/Livro%201 HTTP/1.1" 200 -
+2026-06-05 17:17:19,381 - INFO - 127.0.0.1 - - [05/Jun/2026 17:17:19] "GET /books/Livro%201 HTTP/1.1" 200 -
+2026-06-05 17:17:38,131 - INFO - 127.0.0.1 - - [05/Jun/2026 17:17:38] "GET /books/Livro%202 HTTP/1.1" 200 -
+2026-06-05 17:18:32,231 - INFO - 127.0.0.1 - - [05/Jun/2026 17:18:32] "GET /books/category/history HTTP/1.1" 200 -
+2026-06-05 17:19:03,538 - INFO - 127.0.0.1 - - [05/Jun/2026 17:19:03] "GET /books/category/science HTTP/1.1" 200 -
+2026-06-05 18:00:10,188 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-05 18:00:10,189 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-05 18:00:10,190 - INFO -  * Restarting with stat
+2026-06-05 18:00:10,611 - WARNING -  * Debugger is active!
+2026-06-05 18:00:10,614 - INFO -  * Debugger PIN: 247-270-122
+2026-06-09 11:22:05,315 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-09 11:22:05,316 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-09 11:22:05,318 - INFO -  * Restarting with stat
+2026-06-09 11:22:05,756 - WARNING -  * Debugger is active!
+2026-06-09 11:22:05,760 - INFO -  * Debugger PIN: 247-270-122
+2026-06-09 11:25:04,209 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-09 11:25:04,272 - INFO -  * Restarting with stat
+2026-06-09 11:25:04,688 - WARNING -  * Debugger is active!
+2026-06-09 11:25:04,691 - INFO -  * Debugger PIN: 247-270-122
+2026-06-09 11:25:06,747 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-09 11:25:06,807 - INFO -  * Restarting with stat
+2026-06-09 11:25:07,214 - WARNING -  * Debugger is active!
+2026-06-09 11:25:07,217 - INFO -  * Debugger PIN: 247-270-122
+2026-06-09 11:25:16,307 - INFO - 127.0.0.1 - - [09/Jun/2026 11:25:16] "[33mGET / HTTP/1.1[0m" 404 -
+2026-06-09 11:25:20,632 - INFO - 127.0.0.1 - - [09/Jun/2026 11:25:20] "[33mGET /books/create_book HTTP/1.1[0m" 404 -
+2026-06-09 11:25:37,991 - INFO - 127.0.0.1 - - [09/Jun/2026 11:25:37] "[33mGET /books/create_book HTTP/1.1[0m" 404 -
+2026-06-09 11:26:11,161 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-09 11:26:11,253 - INFO -  * Restarting with stat
+2026-06-09 11:26:11,653 - WARNING -  * Debugger is active!
+2026-06-09 11:26:11,656 - INFO -  * Debugger PIN: 247-270-122
+2026-06-09 11:26:15,742 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-09 11:26:15,805 - INFO -  * Restarting with stat
+2026-06-09 11:27:00,558 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-09 11:27:00,558 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-09 11:27:00,559 - INFO -  * Restarting with stat
+2026-06-09 11:27:00,987 - WARNING -  * Debugger is active!
+2026-06-09 11:27:00,992 - INFO -  * Debugger PIN: 247-270-122
+2026-06-09 11:27:03,962 - INFO - 127.0.0.1 - - [09/Jun/2026 11:27:03] "[33mGET /books/create_book HTTP/1.1[0m" 404 -
+2026-06-09 11:29:04,907 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-09 11:29:04,981 - INFO -  * Restarting with stat
+2026-06-09 11:29:05,428 - WARNING -  * Debugger is active!
+2026-06-09 11:29:05,431 - INFO -  * Debugger PIN: 247-270-122
+2026-06-09 11:29:18,649 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-09 11:29:18,726 - INFO -  * Restarting with stat
+2026-06-09 11:36:12,109 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-09 11:36:12,109 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-09 11:36:12,110 - INFO -  * Restarting with stat
+2026-06-09 11:36:12,557 - WARNING -  * Debugger is active!
+2026-06-09 11:36:12,561 - INFO -  * Debugger PIN: 247-270-122
+2026-06-09 11:36:14,749 - INFO - 127.0.0.1 - - [09/Jun/2026 11:36:14] "[31m[1mGET /books/delete_book/1 HTTP/1.1[0m" 405 -
+2026-06-09 11:36:55,044 - INFO - 127.0.0.1 - - [09/Jun/2026 11:36:55] "[31m[1mGET /books/delete_book/2 HTTP/1.1[0m" 405 -
+2026-06-09 11:37:02,002 - INFO - 127.0.0.1 - - [09/Jun/2026 11:37:02] "[33mGET /books/delete_book/int=2 HTTP/1.1[0m" 404 -
+2026-06-09 11:37:06,667 - INFO - 127.0.0.1 - - [09/Jun/2026 11:37:06] "[33mGET /books/delete_book/ HTTP/1.1[0m" 404 -
+2026-06-09 11:37:08,939 - INFO - 127.0.0.1 - - [09/Jun/2026 11:37:08] "[33mGET /books/delete_book/ HTTP/1.1[0m" 404 -
+2026-06-09 11:37:11,690 - INFO - 127.0.0.1 - - [09/Jun/2026 11:37:11] "[31m[1mGET /books/delete_book/1 HTTP/1.1[0m" 405 -
+2026-06-09 11:37:29,728 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-09 11:37:29,810 - INFO -  * Restarting with stat
+2026-06-09 11:37:30,272 - WARNING -  * Debugger is active!
+2026-06-09 11:37:30,275 - INFO -  * Debugger PIN: 247-270-122
+2026-06-09 11:37:30,824 - INFO - 127.0.0.1 - - [09/Jun/2026 11:37:30] "[33mGET /books/delete_book/1 HTTP/1.1[0m" 404 -
+2026-06-09 11:37:36,410 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-09 11:37:36,484 - INFO -  * Restarting with stat
+2026-06-09 11:37:36,953 - WARNING -  * Debugger is active!
+2026-06-09 11:37:36,957 - INFO -  * Debugger PIN: 247-270-122
+2026-06-09 11:39:15,062 - INFO - 127.0.0.1 - - [09/Jun/2026 11:39:15] "[31m[1mGET /books/delete_book/1 HTTP/1.1[0m" 405 -
+2026-06-09 11:40:40,600 - INFO -  * Detected change in 'c:\\Users\\wali\\Desktop\\estudos\\estudo.py', reloading
+2026-06-09 11:40:40,672 - INFO -  * Restarting with stat
+2026-06-09 11:44:31,305 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-09 11:44:31,305 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-09 11:44:39,663 - INFO - 127.0.0.1 - - [09/Jun/2026 11:44:39] "[33mGET / HTTP/1.1[0m" 404 -
+2026-06-09 11:44:52,013 - INFO - 127.0.0.1 - - [09/Jun/2026 11:44:52] "[31m[1mGET /books/delete_book/1 HTTP/1.1[0m" 405 -
+2026-06-09 11:45:08,493 - INFO - 127.0.0.1 - - [09/Jun/2026 11:45:08] "DELETE /books/delete_book/1 HTTP/1.1" 200 -
+2026-06-10 11:45:58,977 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-10 11:45:58,978 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-10 11:46:10,038 - INFO - 127.0.0.1 - - [10/Jun/2026 11:46:10] "[33mGET / HTTP/1.1[0m" 404 -
+2026-06-10 11:46:29,890 - INFO - 127.0.0.1 - - [10/Jun/2026 11:46:29] "[33mGET /books/byauthor/ HTTP/1.1[0m" 404 -
+2026-06-10 11:46:40,962 - INFO - 127.0.0.1 - - [10/Jun/2026 11:46:40] "GET /books/byauthor/Autor%201 HTTP/1.1" 200 -
