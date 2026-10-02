@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 ou anterior: inclui os dados do app (salvos pelo WebView) no backup do Google. -->
+<full-backup-content>
+    <include domain="root" path="app_webview/" />
+</full-backup-content>
