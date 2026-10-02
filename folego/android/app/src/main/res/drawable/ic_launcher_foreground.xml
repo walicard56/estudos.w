@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mesmo desenho do logo do app (onda + linha), dentro da área segura de 66dp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="2.6"
+        android:scaleY="2.6"
+        android:translateX="22.8"
+        android:translateY="16.3">
+        <path
+            android:pathData="M4,14c3,-6 7,-6 8,-3s4,3 8,-3"
+            android:strokeWidth="2.3"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M5,20h14"
+            android:strokeWidth="2.3"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+    </group>
+</vector>
